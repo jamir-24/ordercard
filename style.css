@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: #e0e8ff;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-position-y: -142px;
+    font-family: sans-serif;
+    
+  }
+  .container {
+    width: 330px;
+    min-height: 520px;
+    background: #ffffff;
+    margin: auto;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+
+
+.text {
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 40px 0 40px;
+    
+}
+.text h1 {
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: #283451;
+}
+
+.text h5 {
+    max-width: 400px;
+    font-size: 12px;
+    line-height: 1.2rem;
+    margin-top: 13px;
+    font-weight: lighter;
+}
+#container2 {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  margin: 33px;
+ 
+  margin-top: 10px;
+  border-radius: 9px;
+  background: #f8f9fe;
+}
+#container2 a {
+  margin-left: 70px;
+  font-size: 11px;
+  color: #382ae1;
+  font-weight: bold;
+}
+
+#container2 h5 {
+  line-height: 1.2rem;
+  padding-left: 15px;
+  font-size: 0.7rem;
+  width: 100px;
+}
+.plan {
+  font-weight: bolder;
+  word-spacing: -1px;
+  font-size: 0.69rem;
+  color: #2a3254;
+}
+.dollar {
+  font-weight: lighter;
+  color: #878ca3;
+}
+#container2 img{
+  width: 34px;
+  margin-left: 3px;
+}
+#container2 a:hover {
+  text-decoration: none;
+  color: #766cf1;
+}
+.payment-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
+
+}
+.btn {
+  color: white;
+  background: #382ae1;
+  border-color: #382ae1;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  padding: .450rem 5rem;
+  font-size: .75rem;
+  border-radius: .40rem;
+  font-family: inherit;
+  box-shadow: 1px 15px 11px #dedbf8;
+}
+.btn:hover {
+  background: #766cf1;
+}
+.order {
+  text-align: center;
+  margin-top: 25px;
+  font-size: .9em;
+}
+
+.order a {
+  text-decoration: none;
+  font-size: .70rem;
+  color: #7984a0;
+}
+.order a:hover {
+  color: #424969ee;
+  font-weight: bold;
+}
+footer {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 1rem
+}
+
+.brand{
+  font-size: 1rem;
+  font-weight: 600;
+  font-style: italic;
+  color: steelblue;
+}
+
+.attribution {
+  font-size: .65rem;
+
+}
+footer a{
+  text-decoration: none;
+
+}
+footer a:hover {
+  text-decoration: underline;
+  color: #766cf1;
+
+}
+
